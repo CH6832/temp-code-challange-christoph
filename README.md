@@ -53,9 +53,9 @@ library-management/
 ├── .gradle/ - Gradle cache and build metadata
 ├── .idea - IntelliJ IDEA configuration files
 ├── build - Compiled output and build artifacts
-│   ├── classes/- Compiled Java classes
+│   ├── classes/ - Compiled Java classes
 │   ├── generated/ - Generated source files
-│   ├── reports/- Test and analysis reports
+│   ├── reports/ - Test and analysis reports
 │   ├── resources/ - Processed resources
 │   └── test-results/ - Test execution results
 ├── gradle/  - Gradle wrapper files
@@ -76,12 +76,12 @@ library-management/
     │       ├── db/migration/ - Flyway database migrations
     │       ├── static/ - Static resources
     │       └── templates/ - Template files
-    └── test/  - Test source code
+    └── test/ - Test source code
         ├── java/com/library/ - Test package structure
         │   ├── integration/ - Integration tests
         │   ├── repository - Repository layer tests
         │   └── service/ - Service layer tests
-        └── resources/  - Test resources
+        └── resources/ - Test resources
 
 Additional files:
 ├── .env - Environment variables
